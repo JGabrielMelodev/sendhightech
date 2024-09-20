@@ -1,0 +1,418 @@
+@charset "UFT-8"; /* Define a codificação de caracteres UTF-8 */
+
+/* Reset de margem e padding para todos os elementos */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Estilo geral do body, incluindo a imagem de fundo */
+body{
+    background-color: white;
+    
+}
+
+/* Estilo para o cabeçalho */
+
+header{
+    background-image: url('../imagens/Capturar.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    transition-duration: 2s;
+}
+
+header:hover{
+    transition-duration: 1s;
+    background-image: url('../imagens/bgblack.png');
+    
+}
+
+/* Título principal do cabeçalho */
+#tamheader{
+    
+    margin: auto;
+    background-color: rgb(243, 243, 243);
+
+}
+#titulo{
+    display: flex;
+    max-width: 1330px;
+    margin: auto;
+}
+#titulo img{
+    width: 50px;
+    height: 50px;
+    
+}
+#titulo h1{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-right: 60%;
+}
+div#titulo{
+    background-color: rgb(243, 243, 243);
+    padding: 15px;
+    padding-bottom: 7px;
+    text-align: center;
+    color: #085A8C;
+    
+}
+.pag1{
+    text-decoration: none;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #0FC2C0;
+    
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+.pag2{
+    text-decoration: none;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+    padding: 10px;
+    color: #0FC2C0;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+.pag1:hover{
+    background-image: linear-gradient(to top, #FF49C2, #01AAB5);
+    color: #c8ff5b;
+    transition-duration: .5s;
+}
+.pag2:hover{
+    background-image: linear-gradient(to top, #FF49C2, #01AAB5);
+    color: #c8ff5b;
+    transition-duration: .5s;
+}
+/* Container do menu principal */
+#menu{
+    padding-top: 50px;
+    max-width: 1470px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+/* Estilo do logotipo da Send High Tech */
+#logosht{
+    margin-top: 30px;
+    margin-left: 170px;
+    width: 423px;
+    margin-right: 280px;
+}
+
+/* Container das opções de "Quero um app" e "Quero um site" */
+div#opção{
+    background-color: #34aecc5e;
+    width: 350px;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    padding-right: 25px;
+    margin-right: 120px;
+    border: 1px solid #3DF2E0;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.336);
+}
+
+/* Botão de "Quero um app/site" */
+.querobtn{
+    text-decoration: none;
+    background-color: #3df2e048;
+    font-size: 20px;
+    padding: 13px;
+    border-radius: 20px;
+    border: 2px solid #3DF2E0;
+    color: #3DF2E0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.603);
+    box-shadow: 1px 1px 2px #22817888;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+/* Efeito de hover para os botões */
+.querobtn:hover{
+    background-color: #22857b;
+    border: 2px solid #3DF2E0;
+}
+
+/* Estilo para a imagem do celular (app) */
+#app{
+    margin-top: -40px;
+    margin-bottom: 5px;
+    height: -10px;
+}
+
+/* Estilo para a imagem do computador (site) */
+#site{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 90%;
+    
+}
+#bgvideo{
+    margin: 80px;
+}
+#imagemtopo{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 1200px;
+    color: #224A7D;
+    margin: auto;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.308);
+}
+#titulovideo{
+    display: flex;
+    margin: auto;
+    
+}
+#imagemtopo h1{
+    margin: auto;
+    padding: 25px 25px 5px 25px;
+    margin-top: 25px;
+    font-size: 38px;
+    text-align: left;
+    max-width: 450px;
+}
+#imagemtopo p{
+    max-width: 400px;
+    padding: 25px;
+    text-align: 0px 0px 5px black;
+
+}
+
+#videofab{
+    border-radius: 10px;
+    border: 0px solid white;
+    box-shadow: 2px 2px 8px black;
+    
+}
+#video{
+    text-align: center;
+    margin-top: 10px;
+
+    
+}
+
+
+/* Estilos para o container das informações (aspectos da empresa) */
+#aspectos{
+    margin: auto;
+    display: flex;
+    max-width: 1130px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.322);
+    background-color: #3d9bf29d;
+    border-radius: 10px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.329);
+}
+#bgdepoimentos{
+    background-image: url('../imagens/depoimento.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+    margin-top: 70px;
+    max-width: 1300px;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+#bgdepoimentos h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: #10689e;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.473);
+}
+#bgdepoimentos p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #0d4f77;
+    margin-bottom: 25px;
+}
+#bgdepoimentos div{
+    background-color: rgba(255, 255, 255, 0.582);
+    max-width: 850px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.473);
+
+    
+}
+#bgdepoimentos a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0CABA8;
+    padding: 8px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 25px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.185);
+    transition-duration: .5s;
+}
+#bgdepoimentos a:hover{
+    background-color: #0FC2C0;
+    color: white;
+    
+}
+/* Estilo para as imagens dentro da seção de informações */
+div.informações > img{
+    margin: 15px;
+    box-shadow: 0px 0px 5px #032940;
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+
+/* Efeito de hover nas imagens */
+.informações img:hover{
+    box-shadow: 0px 0px 7px #40ffec;
+}
+
+/* Títulos dentro da seção de informações */
+.informações > h1{
+    width: 200px;
+    margin: auto;
+    padding-top: 8px;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+/* Parágrafos dentro da seção de informações */
+.informações p{
+    width: 200px;
+    margin: auto;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+/* Container para a seção sobre a empresa */
+#sobre-nos{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    text-indent: 15px;
+    display: flex;
+    background-color: #EEEEEE;
+    max-width: 1470px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/* Fundo da seção sobre a empresa */
+#fundosobre{
+    display: flex;
+    background-color: #EEEEEE;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.356);
+}
+
+/* Estilos para o texto da história da empresa */
+#historiasht{
+    max-width: 400px;
+    text-align: justify;
+    color: #1A6AFF;
+    padding: 30px;
+}
+
+/* Título da história */
+#historiasht h1{
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+/* Parágrafo da história */
+#historiasht p{
+    font-size: 20px;
+}
+
+/* Estilo para os blocos dos fundadores */
+.fundadores{
+    background-color: rgba(173, 216, 230, 0.466);
+    max-width: 210px;
+    text-align: center;
+    padding: 15px;
+}
+.fundadores img{
+    margin: auto;
+    text-align: center;
+}
+/* Títulos e subtítulos dos fundadores */
+.fundadores h1{
+    color: #024873;
+    padding-bottom: 7px;
+    margin-left: -15px;
+    font-size: 15px;
+}
+
+.fundadores h2{
+    margin-bottom: 15px;
+    margin-left: -15px;
+    color: #024873;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.555);
+}
+
+/* Estilo para as imagens dos fundadores */
+.fundadores img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px #59f3f3;
+}
+
+/* Parágrafos dentro dos blocos dos fundadores */
+.fundadores p {
+    margin-bottom: 15px;
+    color: #024873;
+    margin-top: 15px;
+}
+footer{
+    margin-top: 30px;
+    background-image: linear-gradient(to bottom, #032A41, #08598A);
+    display: flex;
+    text-align: center; 
+    padding-bottom: 25px;
+    box-shadow: 0px 0px 8px black;
+    position: relative;
+    border: 1px solid black;
+    transition-duration: 1s;
+}
+footer img{
+    display: block;
+}
+#footer1{
+    
+    margin: auto;
+    
+}
+#footer2{
+    margin: auto;
+    
+}
+#imgf1{
+    padding-bottom: 25px;
+}
+#imgf2{
+    margin-top: -40px;
+    padding-bottom: 25px;
+}
