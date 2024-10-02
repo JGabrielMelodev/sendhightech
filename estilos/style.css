@@ -416,3 +416,123 @@ footer img{
     margin-top: -40px;
     padding-bottom: 25px;
 }
+/* Media query para dispositivos com largura máxima de 768px (celulares e tablets) */
+@media (max-width: 768px) {
+
+    /* Ajusta o layout do cabeçalho */
+    #titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #titulo img {
+        width: 100px; /* Reduz o tamanho do logo */
+        margin-bottom: 10px;
+    }
+
+    #titulo h1 {
+        font-size: 24px; /* Reduz o tamanho do título */
+    }
+
+    #tamheader {
+        padding: 10px;
+    }
+
+    /* Ajusta o menu */
+    #menu {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #logosht img {
+        width: 80px; /* Reduz o tamanho da logo no menu */
+    }
+
+    #opção {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .querobtn {
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #app, #site {
+        width: 100px; /* Ajuste o tamanho dos ícones de app e site */
+    }
+
+    /* Ajusta o tamanho do iframe de vídeo */
+    #videofab {
+        width: 100%;
+        height: auto; /* Deixa a altura automática para manter a proporção */
+    }
+
+    /* Ajusta o layout dos benefícios */
+    #aspectos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .informações {
+        text-align: center;
+        width: 90%; /* Ajusta o conteúdo para caber na tela */
+    }
+
+    .informações img {
+        width: 80px; /* Ajuste o tamanho das imagens dos benefícios */
+        margin-bottom: 10px;
+    }
+
+    /* Ajuste na seção de sobre nós */
+    #sobre-nos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .fundadores {
+        width: 90%; /* Ajusta o tamanho das informações dos fundadores */
+        text-align: center;
+    }
+
+    .fundadores img {
+        width: 100px; /* Reduz o tamanho das fotos dos fundadores */
+        margin-bottom: 10px;
+    }
+
+    /* Ajuste o rodapé */
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    #footer1, #footer2 {
+        width: 90%;
+        text-align: center;
+    }
+
+    #imgf1, #imgf2 {
+        width: 80px; /* Ajuste o tamanho das imagens do rodapé */
+    }
+
+    /* Ajuste para o texto no rodapé */
+    .querobtn {
+        width: 100%;
+        font-size: 18px;
+    }
+
+}
